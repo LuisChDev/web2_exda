@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    color: white;
+}
+
+#container {
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.navbar {
+    margin: 0px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #9acd32;
+}
+
+.navbar > * {
+    display: inline;
+}
+
+.table-row {
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.placeholder {
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.placeholder_small {
+    margin: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.footer {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #013220;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#mainDiv {
+    padding: 0px;
+}
